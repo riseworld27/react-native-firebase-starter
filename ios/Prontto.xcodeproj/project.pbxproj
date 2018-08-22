@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		003900A597DE4B4C9C10F4E0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 060EAEFE6F6245508A667011 /* MaterialIcons.ttf */; };
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
@@ -72,8 +73,6 @@
 		E5F989791FD59E120021A57E /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F9896F1FD59E120021A57E /* SimpleLineIcons.ttf */; };
 		E5F9897A1FD59E120021A57E /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F989701FD59E120021A57E /* Zocial.ttf */; };
 		E5F989A41FD59F600021A57E /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F989651FD59DEE0021A57E /* libRCTCamera.a */; };
-		E5F98AC01FD7CBD40021A57E /* Syabil-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F98ABE1FD7CBD30021A57E /* Syabil-Book.ttf */; };
-		E5F98AC11FD7CBD40021A57E /* Beillingsday.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5F98ABF1FD7CBD30021A57E /* Beillingsday.otf */; };
 		FD8C930FB638480CA8F2ACE6 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D4BC0EC3D4EC3A2D01081 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
@@ -391,8 +390,6 @@
 		E5F9896E1FD59E120021A57E /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		E5F9896F1FD59E120021A57E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		E5F989701FD59E120021A57E /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
-		E5F98ABE1FD7CBD30021A57E /* Syabil-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Syabil-Book.ttf"; path = "../../../app/resources/font/Syabil-Book.ttf"; sourceTree = "<group>"; };
-		E5F98ABF1FD7CBD30021A57E /* Beillingsday.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beillingsday.otf; path = ../../../app/resources/font/Beillingsday.otf; sourceTree = "<group>"; };
 		ECC5620D8CEE4CB4ADD339B3 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		F258BA2230754A2295433899 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		F5FC6DBA20AD4025B849B55F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
@@ -666,8 +663,6 @@
 		E5F989661FD59E120021A57E /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				E5F98ABF1FD7CBD30021A57E /* Beillingsday.otf */,
-				E5F98ABE1FD7CBD30021A57E /* Syabil-Book.ttf */,
 				E5F989671FD59E120021A57E /* Entypo.ttf */,
 				E5F989681FD59E120021A57E /* EvilIcons.ttf */,
 				E5F989691FD59E120021A57E /* FontAwesome.ttf */,
@@ -1199,10 +1194,8 @@
 				6EFE1C2DD01D4E1DB7D51A42 /* EvilIcons.ttf in Resources */,
 				E5F989761FD59E120021A57E /* MaterialCommunityIcons.ttf in Resources */,
 				91966C36476E4371AE1A7FE7 /* FontAwesome.ttf in Resources */,
-				E5F98AC11FD7CBD40021A57E /* Beillingsday.otf in Resources */,
 				E5F989721FD59E120021A57E /* EvilIcons.ttf in Resources */,
 				7F1ADE49E36641F6874D49EC /* Foundation.ttf in Resources */,
-				E5F98AC01FD7CBD40021A57E /* Syabil-Book.ttf in Resources */,
 				70B5D6DC5B6D42A5AB36652D /* Ionicons.ttf in Resources */,
 				003900A597DE4B4C9C10F4E0 /* MaterialIcons.ttf in Resources */,
 				20BADE17F4BA4CC2AE13621E /* Octicons.ttf in Resources */,

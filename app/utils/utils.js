@@ -10,7 +10,7 @@ function query({type, url, body, headers}) {
         .then((response) => {
             return response;
         }).catch((err) => {
-            return 'Something went wrong';
+            return err;
     });
 }
 

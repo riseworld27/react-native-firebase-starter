@@ -10,8 +10,14 @@ export function welcome() {
 
 export function getData(callback) {
     return function (dispatch) {
-        getMovies().then((result) => {
-            callback(result._bodyInit);
+        return Promise.resolve(getMovies()).then((result) => {
+            if (result.status == 200) {
+                callback(result._bodyInit);
+            } else {
+                alert('Something went wrong')
+            }
+        }).catch((err) => {
+            alert('Something went wrong')
         })
     }
 }
