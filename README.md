@@ -1,4 +1,5 @@
 # React Native Firebase Example
+Unfortunately no design :(
 
 ## Main technologies used
 
