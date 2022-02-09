@@ -20,9 +20,13 @@ Unfortunately no design :(
 git clone < project-url.git >
 ```
 
-- Install
+- Install dependencies
 ```
 npm install
+```
+
+- Run packager
+```
 react-native start
 ```
 
