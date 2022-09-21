@@ -1,4 +1,5 @@
 # React Native Firebase Example
+
 Unfortunately no design :(
 
 ## Main technologies used
@@ -11,31 +12,36 @@ Unfortunately no design :(
 
 > Redux is a predictable state container for JavaScript apps.
 
-- Firebase
+- [Firebase](https://rnfirebase.io/)
 
 ## Running the project
 
 - Clone this project
+
 ```
 git clone < project-url.git >
 ```
 
 - Install dependencies
+
 ```
 npm install
 ```
 
 - Run packager
+
 ```
 react-native start
 ```
 
 - Run iOS
+
 ```
 react-native run-ios
 ```
 
 - Run Android
+
 ```
 react-native run-android
 ```
